@@ -5,8 +5,12 @@ body{
     font-style: normal;
 }
 nav{
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #0b1c3e;
 }
 
 .sidenav{
@@ -19,7 +23,7 @@ nav{
     background-color: #ffffff;
     overflow-x: hidden; 
     padding-top: 60px;
-    transition: 1s;
+    transition: 1.5s;
     border-radius: 2%;
 }
 
@@ -37,7 +41,7 @@ nav{
   text-decoration: underline;
 }
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 1.5s;
 }
 
 #topOfWeb {
@@ -57,6 +61,25 @@ nav{
 
     display: inline-flex;
 }
+
+#aboutMeBtn, #btnResume{
+    border: none;
+    padding: 15px;
+    font-size: large;
+    margin-right: 3%;
+    background-color: #8eb4ff;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#aboutMeBtn:hover, #btnResume:hover{
+    background-color: #0b1c3e;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
 #imageSec{
     max-width: 45%;
     padding-right: 2%;
