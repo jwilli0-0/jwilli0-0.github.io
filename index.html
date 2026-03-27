@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Jessica Williamson Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>  
+    </head>
+
+
+
+    <nav style="background-color: #0b1c3e;">
+        <span onclick="openNav()" ><img src="menu.png" style="max-width: 3%; filter: invert(100%); padding-left: 15px; padding-top: 10px;"></span>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="./">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+
+
+    <body id="main">
+    <div id="topOfWeb">
+        <video width="100%" autoplay muted playsinline onended="this.poster='titleImg.jpg'; this.src='';">
+            <source src="titleImg.mp4" type="video/mp4">
+        </video>
+        <div id="gradientPc"></div>
+    </div>
+
+    <div id="aboutMe">
+        <h2>About Me</h2>
+        <div><img src=""> <p>Talking about myself bc i love myself</p></div>
+        <div>
+            <button>LinkedIn</button>
+            <button>Blog</button>
+            <button>See My Resume</button>
+        </div>
+    </div>
+    
+</body>
+
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s;
+    border-radius: 2%;
+}
+
+.sidenav a {
+  padding: 0px 0px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0b1c3e;
+  display: block;
+  transition: 1.5s;
+}
+
+.sidenav a:hover {
+  color: #8eb4ff;
+  text-decoration: underline;
+}
+#topOfWeb {
+    margin: 0;
+    background-color: #0b1c3e; /* Ensures no text-based spacing */
+}
+
+#gradientPc {
+    min-height: 275px; 
+    width: 100%;
+    background: linear-gradient(180deg, rgba(11, 28, 62, 1) 0%, rgba(255, 255, 255, 1) 80%);
+}
