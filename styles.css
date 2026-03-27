@@ -19,7 +19,7 @@ nav{
     background-color: #ffffff;
     overflow-x: hidden; 
     padding-top: 60px;
-    transition: 0.5s;
+    transition: 1s;
     border-radius: 2%;
 }
 
@@ -36,6 +36,10 @@ nav{
   color: #8eb4ff;
   text-decoration: underline;
 }
+#main {
+  transition: margin-left .5s;
+}
+
 #topOfWeb {
     margin: 0;
     background-color: #0b1c3e; /* Ensures no text-based spacing */
