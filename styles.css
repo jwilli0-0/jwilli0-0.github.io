@@ -64,6 +64,7 @@ nav{
 }
 #txtButtons{
     font-size: large;
+    max-width: 45%;
 }
 #setBtns{
     display: flex;
