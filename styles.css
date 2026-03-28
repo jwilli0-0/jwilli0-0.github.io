@@ -60,6 +60,17 @@ nav{
     padding: 2%;
 
     display: inline-flex;
+    align-items: center; 
+}
+#txtButtons{
+    font-size: large;
+}
+#setBtns{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 #aboutMeBtn, #btnResume{
@@ -81,7 +92,7 @@ nav{
 
 
 #imageSec{
-    max-width: 45%;
+    max-width: 60%;
     padding-right: 2%;
 }
 
