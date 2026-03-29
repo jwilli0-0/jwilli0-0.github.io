@@ -140,13 +140,14 @@ nav{
 }
 
 #projectsFull{
-    display: inline-flex;
+    display: flex;
     gap: 30px;
     margin: 10%;
+    max-width: 100%;
 }
 
 #projStyle1{
-    max-width: 30%;
+    width: 500px;
     border: 2px solid#0b1c3e;
     padding: 3%;
     box-shadow: 10px 10px #0b1c3e19;
