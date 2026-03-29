@@ -64,7 +64,7 @@ nav{
 }
 #txtButtons{
     font-size: large;
-    max-width: 45%;
+    max-width: 60%;
 }
 #setBtns{
     display: flex;
@@ -93,7 +93,7 @@ nav{
 
 
 #imageSec{
-    max-width: 60%;
+    max-width: 40%;
     padding-right: 2%;
 }
 
@@ -120,7 +120,7 @@ nav{
   animation-duration: 1s;
 }
 
-.close {
+.close, .close1, .close2 {
   color: #aaa;
   float: right;
   font-size: 28px;
@@ -128,7 +128,7 @@ nav{
 }
 
 .close:hover,
-.close:focus {
+.close:focus, .close1:hover, .close1:focus, .close2:hover, .close2:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -137,4 +137,24 @@ nav{
 @keyframes animatetop {
   from {top: -300px; opacity: 0}
   to {top: 0; opacity: 1}
+}
+
+#projectsFull{
+    display: inline-flex;
+    gap: 30px;
+    margin: 10%;
+}
+
+#projStyle1{
+    max-width: 30%;
+    border: 2px solid#0b1c3e;
+    padding: 3%;
+    box-shadow: 10px 10px #0b1c3e19;
+    transition: 1s;
+}
+#projStyle1:hover{
+    background-color: #0b1c3e;
+    color: white;
+    box-shadow: 10px 10px 5px #7495d83c;
+    transition: 1s;
 }
