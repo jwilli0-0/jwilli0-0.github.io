@@ -142,20 +142,24 @@ nav{
 #projectsFull{
     display: flex;
     gap: 30px;
-    margin: 10%;
+    margin: 5%;
     max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap
 }
 
 #projStyle1{
-    width: 500px;
+    flex: 1 1 350px;
+    max-width: 500px;
+    box-sizing: border-box;
     border: 2px solid#0b1c3e;
     padding: 3%;
     box-shadow: 10px 10px #0b1c3e19;
-    transition: 1s;
+    transition: 0.5s;
 }
 #projStyle1:hover{
     background-color: #0b1c3e;
     color: white;
     box-shadow: 10px 10px 5px #7495d83c;
-    transition: 1s;
+    transition: 0.5s;
 }
