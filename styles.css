@@ -142,15 +142,16 @@ nav{
 #projectsFull{
     display: flex;
     gap: 30px;
-    margin: 5%;
+    margin: 1,5%;
     max-width: 100%;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #projStyle1{
     flex: 0 0 auto;
-    max-width: 500px;
+    max-width: 400px;
     box-sizing: border-box;
     border: 2px solid#0b1c3e;
     padding: 3%;
