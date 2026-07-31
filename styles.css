@@ -149,7 +149,7 @@ nav{
 }
 
 #projStyle1{
-    flex: 1 1 350px;
+    flex: 0 0 auto;
     max-width: 500px;
     box-sizing: border-box;
     border: 2px solid#0b1c3e;
