@@ -163,4 +163,15 @@ nav{
     color: white;
     box-shadow: 10px 10px 5px #7495d83c;
     transition: 0.5s;
+    cursor: pointer;
+}
+
+#eventsImgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    
+    margin-left: 75px;
+    margin-right: 75px;
+   max-width: 100%;
 }
