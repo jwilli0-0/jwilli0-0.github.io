@@ -169,9 +169,10 @@ nav{
 #eventsImgs{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 15px; 
+    gap: 15px;
+     
     
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
    max-width: 100%;
 }
